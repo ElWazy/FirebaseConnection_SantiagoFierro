@@ -24,9 +24,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ScrollView
+            <ListView
+                android:id="@+id/listView"
                 android:layout_width="0dp"
-                android:layout_height="545dp"
+                android:layout_height="0dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
@@ -34,20 +35,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/btnDelete"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="SpeakableTextPresentCheck">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ListView
-                        android:id="@+id/listView"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-                </LinearLayout>
-            </ScrollView>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/btnDelete"
