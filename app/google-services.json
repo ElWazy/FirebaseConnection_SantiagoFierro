@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "616993883033",
+    "project_id": "fir-rancagua-2fc57",
+    "storage_bucket": "fir-rancagua-2fc57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616993883033:android:9febe8f67e78cf45e70908",
+        "android_client_info": {
+          "package_name": "com.lutrias.firebaseconnection_santiagofierro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616993883033-ru0mu34e48r9vuqnjs8db08iossslvup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_gVChisCMVq8__zXd2ALHgs9C89eFHU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616993883033-ru0mu34e48r9vuqnjs8db08iossslvup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
